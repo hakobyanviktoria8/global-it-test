@@ -1,0 +1,49 @@
+/*titleHere1*/
+.titleHere1{
+    background-image: url("../img/bg2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    color: rgb(33, 36, 61);
+}
+.titleHere1-div{
+    display: flex;
+    padding-top: 8rem;
+    padding-left: 8rem;
+}
+.titleHere1-img,.titleHere1-text{
+    width: 45%;
+}
+.titleHere1-img img{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+}
+.titleHere1-text{
+    display: flex;
+    flex-direction: column;
+}
+.titleHere1-text h2{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+.titleHere1-text p {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.titleHere1-text button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(33, 36, 61);
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+}

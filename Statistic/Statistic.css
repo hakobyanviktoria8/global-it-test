@@ -1,0 +1,52 @@
+/*statistic*/
+.statistic{
+    background-image: url("../img/bg1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 35rem;
+    color: white;
+}
+.statistic-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.statistic h2{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+.statistic p {
+    margin: 2.5rem auto 0;
+    font-size: 1.5rem;
+    width: 50%;
+}
+.statistic-circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+}
+.circle{
+    width: 12rem;
+    height: 12rem;
+    border: .2rem solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.statistic-circle .circle p{
+    margin: 0;
+}
+.circle p:first-child{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.circle p:last-child{
+    font-size: 2rem;
+}

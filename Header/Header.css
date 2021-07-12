@@ -1,0 +1,37 @@
+/*header style*/
+.header{
+    background-image: url("../img/header.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 32rem;
+}
+.header h1{
+    font-size: 7rem;
+    color: white;
+    padding-top: 6rem;
+    padding-left: 6rem;
+}
+.header p {
+    padding-left: 6rem;
+    margin-top: 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+    width: 50%;
+}
+.header button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(33, 36, 61);
+    margin-left: 6rem;
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+}

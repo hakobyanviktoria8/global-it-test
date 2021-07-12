@@ -1,0 +1,9 @@
+/*titleHere2*/
+.titleHere2{
+    background-image: url("../img/bg3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38rem;
+    color: rgb(33, 36, 61);
+}

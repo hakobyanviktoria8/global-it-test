@@ -1,0 +1,36 @@
+/*footer*/
+.footer{
+    height: 30rem;
+    background: rgb(33, 36, 61);
+    color: white;
+    display: flex;
+    padding-top: 7rem;
+}
+.footer-one{
+    width: 30rem;
+    padding-left: 10rem;
+    line-height: 1.5rem;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.footer-two, .footer-three, .footer-fore{
+    width: 15rem;
+    padding-left: 3rem;
+    line-height: 2rem;
+}
+.footer h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

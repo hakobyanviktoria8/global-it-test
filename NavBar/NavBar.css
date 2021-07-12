@@ -1,0 +1,34 @@
+/*navBar style*/
+.navBar{
+    background: rgb(33, 36, 61);
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+.navBar .logo{
+    display: flex;
+    justify-content: start;
+    margin-left:  2rem;
+    margin-right: 10rem;
+}
+.navBar .logo img{
+    width: 2.5rem;
+}
+.logo span{
+    margin-left: .3rem;
+}
+.search{
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+.search img{
+    width: 2rem;
+    margin-top: .6rem;
+}
+.navBar a{
+    color: white;
+    text-decoration: none;
+}
